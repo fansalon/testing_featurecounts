@@ -43,9 +43,9 @@ Rscript merge_corr.R
 
 ## Results
 
-
-
+The results are quite good as they highlight very high correlation between the two methods. Of course, the gene expression levels calculated by the SE method are ~2x of the PE as the two reads of the same pair are counted twice in the SE analysis and only once in the PE analysis. However, this does not seem to alter significantly the overall gene expression levels.
 
 <img src="https://github.com/fansalon/testing_featurecounts/blob/main/rnaseq_cor_res.png" width="750" height="750"/>
 
 
+As it appears from the plot above, there are some genes which are quantified differently by the two methods. The number of such genes is not incredibly high:
