@@ -40,3 +40,12 @@ cat featureCounts_PE/res.txt | grep -v "#" | cut -f 1,7 | grep ENS | sort -k1,1 
 Rscript merge_corr.R
 
 ```
+
+## Results
+
+
+
+
+<img src="https://github.com/fansalon/testing_featurecounts/blob/main/rnaseq_cor_res.png" width="750" height="750"/>
+
+
