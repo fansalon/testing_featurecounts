@@ -43,7 +43,9 @@ Rscript merge_corr.R
 
 ## Results
 
-The results are quite good as they highlight very high correlation between the two methods (**Panel A**). Of course, the gene expression levels calculated by the SE method are ~2x of the PE as two reads of the same pair are counted twice in the SE analysis and only once in the PE analysis. Hence, most of the genes show a log2FC (SE over PR) of ~2 (**Panel B**). However, this ~2 fold alteration appears to be consistent for almost all the genes, with very few genes showing incredibly high, or low, log2FC. Moreover, most of the genes showing different gene expression levels between the two quantification methods have low expression levels. Indeed, when selecting the top 100, 1000 and 10000 expressed genes from both gene sets, most of the genes are in common beween the two quantification methods.
+The results are quite good as they highlight very high correlation between the two methods (**Panel A**).\
+Of course, the gene expression levels calculated by the SE method are ~2x of the PE as two reads of the same pair are counted twice in the SE analysis and only once in the PE analysis. Hence, most of the genes show a log2FC (SE over PE) of ~2 (**Panel B**). However, this ~2 fold alteration appears to be consistent for almost all the genes, with very few genes showing incredibly high, or low, log2FC.\
+Moreover, most of the genes showing different gene expression levels between the two quantification methods have low expression levels. Indeed, when selecting the top 100, 1000 and 10000 expressed genes from both gene sets, most of the genes are in common beween the two quantification methods.
 
 <img src="https://github.com/fansalon/testing_featurecounts/blob/main/rnaseq_cor_res.png" width="750" height="750"/>
 
